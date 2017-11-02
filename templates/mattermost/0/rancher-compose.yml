@@ -3,4 +3,11 @@
   version: "0.1"
   description: "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones"
   uuid: mattermost-0
+  maintainer: "ThanhPV <thanhpv.102@gmail.com>"
   minimum_rancher_version: v0.51.0
+mattermost:
+  scale: 1
+  start_on_create: true
+mattermostdb:
+  scale: 1
+  start_on_create: true
