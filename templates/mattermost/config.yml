@@ -1,0 +1,6 @@
+name: Mattermost
+description: |
+  Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones
+version: 0.1
+category: Chat
+maintainer: "ThanhPV <thanhpv.102@gmail.com>"

@@ -1,0 +1,22 @@
+version: '2'
+services:
+  mattermost:
+    image: thanhpv102/mattermost-team
+    environment:
+      - MM_DBNAME=mattermost
+      - MM_PASSWORD=mmpassword
+      - MM_USERNAME=mmpostgres
+      - DB_HOST=mattermostdb
+    volumes:
+      - mattermost-data:/mattermost/data
+  mattermostdb:
+    image: mattermost/mattermost-prod-db:4.3.0
+    environment:
+      - POSTGRES_USER=mmpostgres
+      - POSTGRES_PASSWORD=mmpassword
+      - POSTGRES_DB=mattermost
+    volumes:
+      - mattermost-db:/var/lib/postgresql/data
+volumes:
+  mattermost-data:
+  mattermost-db:
