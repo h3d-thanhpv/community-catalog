@@ -3,5 +3,5 @@ description: |
   Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones
 version: v0.1.0
 category: Chat
-maintainer: "ThanhPV <thanhpv.102@gmail.com>"
+maintainer: "Thanh Phan <thanhpv.102@gmail.com>"
 minimum_rancher_version: v0.51.0
