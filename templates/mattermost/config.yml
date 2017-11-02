@@ -4,3 +4,4 @@ description: |
 version: 0.1
 category: Chat
 maintainer: "ThanhPV <thanhpv.102@gmail.com>"
+minimum_rancher_version: v0.51.0
