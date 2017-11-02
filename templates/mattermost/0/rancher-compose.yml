@@ -4,7 +4,6 @@ catalog:
   version: v0.1.0
   description: |
     Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones
-  maintainer: "ThanhPV <thanhpv.102@gmail.com>"
   minimum_rancher_version: v0.51.0
   uuid: mattermost-0
 
