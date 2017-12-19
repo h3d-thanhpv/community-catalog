@@ -1,7 +1,7 @@
 version: '2'
 services:
   mattermost:
-    image: thanhpv102/mattermost-team:4.3.0
+    image: thanhpv102/mattermost-team:4.5.0
     environment:
       - MM_DBNAME=${mm_dbname}
       - MM_PASSWORD=${mm_password}
@@ -10,7 +10,7 @@ services:
     volumes:
       - mattermost-data:/mattermost/data
   mattermostdb:
-    image: mattermost/mattermost-prod-db:4.3.0
+    image: mattermost/mattermost-prod-db:4.5.0
     environment:
       - POSTGRES_USER=${mm_username}
       - POSTGRES_PASSWORD=${mm_password}
